@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Test</title>
+</head>
+<body>
+    <div>
+        <ol id="ol">
+
+        </ol>
+    </div>
+    <script>
+        var list=document.getElementById('ol');
+        var city=['Delhi','Mumbai','Jaipr','Kolkata','Indor'];
+        for(let i=0;i<city.length;i++){
+            list.innerHTML+=`<li>${city[i]}</li>`
+                console.log(city[i]);
+        }
+    </script>
+</body>
+</html>
